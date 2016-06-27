@@ -53,3 +53,13 @@ span {
     height: 50%;
     border-radius: 2px;
 }
+
+#pls {
+    border: 1px solid #453d30;
+    border-bottom: 0;
+    border-radius: 9px 9px 0 0;
+    height: 6px;
+    width: 35px;
+    margin: 0 auto;
+    background: #8b7b61;
+}
