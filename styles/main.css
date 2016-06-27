@@ -1,0 +1,54 @@
+/* CSS Document */
+
+body > div {
+    background: gainsboro;
+    border-radius: 10px;
+    width: 100px;
+    margin: 1em auto;
+    box-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+
+span {  
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+#diggle {
+    width: 20px;
+    height: 25px;
+    margin: 3px auto 0;
+    background: #a16e59;
+    border-radius: 10px 10px 0 0;
+    border: #795544 1px solid;
+    border-bottom: none;
+}
+
+.eye {
+    background: black;
+    width: 2px;
+    height: 5px;
+    margin: 6px 4px 2px;
+    float: left;
+    overflow: hidden;
+}
+
+.nose {
+    background: #dc6a81;
+    width: 12px;
+    height: 8;
+    border-radius: 5px;
+    margin: 0 auto;
+    clear: left;
+    border: #a54f61 1px solid;
+    overflow: hidden;
+}
+
+#diggle > div > div {
+    background: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 2px;
+}
