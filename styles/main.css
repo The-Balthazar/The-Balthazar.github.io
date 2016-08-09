@@ -63,3 +63,69 @@ span {
     margin: 0 auto;
     background: #8b7b61;
 }
+
+#merf {
+    width: 40px;
+    height: 18px;
+    background: white;
+    border: 1px black solid;
+    margin: 10px auto 10px;
+}
+
+#merf .head {
+    width: 20px;
+    height: 10px;
+    background: white;
+    border: 1px black solid;
+    margin: -10px -12px;
+    border-radius: 10px 5px 1px 2px;
+}
+
+#merf .head div {
+    width: 2px;
+    height: 2px;
+    border-radius: 1px;
+    background: black;
+    margin: 3px 60%;
+}
+
+#merf .leg {
+    border: 1px solid black;
+    border-top: 0;
+    border-radius: 0 0 4px 0;
+    width: 6px;
+    height: 15px;
+    background: white;
+    margin: 25px 0 0 0;
+    float: left;
+}
+
+#merf .leg + .leg {
+    float: right;
+}
+
+#merf .tail {
+    float: right;
+    width: 5px;
+    height: 5px;
+    border: 1px solid black;
+    border-bottom: 0;
+    border-radius: 5px 0 0 0;
+    background: white;
+    margin: 2px -10px 0 0;
+}
+
+#merf .tail + div {
+    width: 15px;
+    background: black;
+    height: 7px;
+    border-radius: 0 0 9px 9px;
+    margin: 7px 0 0 15px;
+}
+
+#merf .tail + div + div {
+    width: 4px;
+    background: black;
+    height: 7px;
+    border-radius: 0 9px 9px 0;
+}
